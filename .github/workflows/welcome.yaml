@@ -1,0 +1,4 @@
+name: Post welcome request
+
+pull_request:
+  - [opened]
