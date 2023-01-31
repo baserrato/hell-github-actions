@@ -42,7 +42,7 @@ jobs:
       - name: Check workflow contents, name
         run: ./.github/script/check-file.sh
         env:
-          FILE: ".github/workflows/welcome.yml"
+          FILE: ".github/workflows/welcome.yaml"
           SEARCH: "name:"
 
       # Update README to close <details id=1> and open <details id=2>
