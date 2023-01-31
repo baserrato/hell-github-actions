@@ -2,3 +2,8 @@ name: Post welcome request
 
 pull_request:
   - [opened]
+
+jobs:
+  build:
+    name: Post welcome comment
+    runs-on: ubuntu-latest
